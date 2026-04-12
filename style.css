@@ -912,9 +912,13 @@ p {
     color: rgb(26 32 44);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-.plan:nth-child(1) .plan__stripe, .plan.plan:nth-child(1) .plan__button {
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230,217) 100%);
+}
+.plan:nth-child(2) {
+    background: linear-gradient(135deg, rgb(76,81,191) 0%,
+    rgb(102,126,234) 100%);
 }
 .plan__stripe {
     position: absolute;
@@ -1009,7 +1013,7 @@ p {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.plan:nth-child(1) .plan__stripe, .plan.plan:nth-child(1) .plan__button {
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
@@ -1020,7 +1024,7 @@ p {
 }
 .plan__button {
     border-radius: 0.25rem;
-    background-color: rgb(100, 21, 255);
+    background-color: rgb(100 21 255);
     padding: 0.75rem 2rem;
     font-weight: 700;
     color: rgb(247 250 252);
@@ -1039,6 +1043,7 @@ button {
 }
 .plan:nth-child(2) .plan__name, .plan:nth-child(2)
 .plan__price, .plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration, .plan:nth-child(2)
 .plan__feature {
     color: #f7fafc;
 }
