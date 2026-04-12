@@ -850,7 +850,7 @@ section {
 }.row {
     width: 100%;
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
 }
 .section__tag {
     font-size: 16px;
@@ -1057,9 +1057,9 @@ button {
 }
 .plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0% rgb(254, 178, 178) 100%);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
-.plan__blob {
+.plans__blob {
     z-index: -10;
     position: absolute;
     left: 0;
