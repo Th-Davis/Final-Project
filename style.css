@@ -1134,9 +1134,9 @@ section {
     font-size: 48px;
     font-weight: 900;
     color: rgb(36, 62, 99);
-    line-height: 1,5;
+    line-height: 1.5;
     margin: 16px 0;
-    letter-spacing: 0.025;
+    letter-spacing: 0.025em;
 }
 .purple {
     color: #6415ff;
@@ -1268,7 +1268,7 @@ section {
     padding: 0 32px;
 }
 .container {
-    padding: 96px;
+    padding: 96px 0;
 }
 #start .row {
     position: relative;
