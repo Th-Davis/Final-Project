@@ -336,6 +336,7 @@ img {
     margin: 8px;
     height: calc(100%-16px);
     border-radius: 500px;
+    padding: 12px 24px;
     width: 160px;
     border: none;
     background-color: #6415ff;
@@ -624,7 +625,6 @@ img {
         width: 5rem;
         bottom: -50px;
     }
-}
 .steps__grid {
     position: absolute;
     bottom: -100px;
@@ -672,12 +672,12 @@ img {
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 600;
-    line-height: 1;
+    line-height: 2;
 }
 .step__description {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
+    margin-left: 16px;
     max-width: 320px;
 }
 
