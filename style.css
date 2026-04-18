@@ -7,11 +7,6 @@
     font-family: 'Inter', system-serif;
     color: #243e63;
 }
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
-
 body {
     max-width: 100vw;
     overflow-x: hidden;
@@ -201,7 +196,8 @@ nav {
 
 
 .btn__menu--svg:hover {
-    filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+    filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg)
+     brightness(94%) contrast(115%);
 }
 
 .menu__links {
@@ -403,7 +399,8 @@ section {
     font-weight: 700;
     text-transform: uppercase;
 }
-#features .section__title, #pricing .section__title
+#features .section__title, 
+#pricing .section__title
 {
     text-align: center;
 }
@@ -494,7 +491,8 @@ section {
     max-width: 1280px;
     margin: 0 auto;
 }
-.quality__description, .quality__img--wrapper {
+.quality__description, 
+.quality__img--wrapper {
     width: 50%;
 }
 .quality__description {
@@ -557,7 +555,8 @@ p {
     z-index: 2;
     display: flex;
   }
-  .quality__description, .quality__img--wrapper {
+  .quality__description, 
+  .quality__img--wrapper {
     width: 50%;
   }
   .quality__img {
@@ -605,7 +604,8 @@ section {
     max-width: 1280px;
     margin: 0 auto;
 }
-.steps__description, .steps__img--wrapper {
+.steps__description, 
+.steps__img--wrapper {
     width: 50%;
 }
 .steps__img--wrapper {
@@ -639,10 +639,10 @@ img {
     fill: currentColor;
 }
 .steps__description {
-    padding: 32px 0;
-    padding-left: 64px;
+    margin-left: 24px;
 }
-.steps__description, .steps__img--wrapper {
+.steps__description, 
+.steps__img--wrapper {
     width: 50%;
 }
 .section__tag {
@@ -668,17 +668,17 @@ img {
     display: flex;
     align-items: center;
     margin-top: 32px;
+    align-items: start;
 }
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 600;
-    line-height: 2;
 }
 .step__description {
     display: flex;
     flex-direction: column;
-    margin-left: 16px;
+    margin-left: px;
     max-width: 320px;
 }
 
@@ -721,7 +721,8 @@ section {
     max-width: 1280px;
     margin: 0 auto;
 }
-.values__description, values__img {
+.values__description, 
+values__img {
     width: 50%;
 }
 .values__description {
@@ -739,9 +740,10 @@ section {
 }
 #values .section__title {
     margin-top: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
-#quality .section__title, #values .section__title {
+#quality .section__title, 
+#values .section__title {
     line-height: 1.25;
 }
 .section__title {
