@@ -609,7 +609,7 @@ section {
   position: relative;
 }
 .steps__description {
-  padding:12px 10px 32px 64px;
+  padding:12px 10px 32px 8px;
 }
 .steps__img {
   z-index: 2;
@@ -677,7 +677,7 @@ img {
 .step__description {
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
+  margin-left: 1px;
   max-width: 320px;
 }
 
