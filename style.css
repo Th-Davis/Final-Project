@@ -598,7 +598,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
 }
 .row {
   width: 100%;
@@ -610,7 +609,7 @@ section {
   position: relative;
 }
 .steps__description {
-  padding: 32px 0px 32px 64px;
+  padding:12px 10px 32px 64px;
 }
 .steps__img {
   z-index: 2;
@@ -678,7 +677,7 @@ img {
 .step__description {
   display: flex;
   flex-direction: column;
-  margin-left: px;
+  margin-left: 24px;
   max-width: 320px;
 }
 
@@ -691,7 +690,7 @@ img {
 .step__para {
   font-size: 14px;
   color: #718096;
-  margin-top: 12px;
+  margin-top: 1px;
   font-weight: 500;
   line-height: 2;
 }
@@ -1770,13 +1769,11 @@ header .row {
 }
 
 @media (max-width: 768px) { 
-  #quality .row,
-  #values .row {
+  #quality .row {
     flex-direction: column-reverse;
   }
 }  
   #testimonials .row {
-    flex-direction: column;
     align-items: center;
   }
   #pricing .row {
@@ -1793,10 +1790,6 @@ header .row {
   .feature {
     max-width: 384px;
   }
-
-  .footer__columns {
-    justify-content: center;
-  }
   .footer__bottom {
     flex-direction: column;
     align-items: center;
@@ -1809,7 +1802,7 @@ header .row {
     margin-top: 32px;
   }
   .footer__social--link:first-child {
-    margin-left: 0px;
+    margin-left: 12px;
   }
   
   .features {
@@ -1857,7 +1850,7 @@ header .row {
   }
   .footer__copyright {
     font-size: 14px;
-    text-align: center;
+    text-align: centeer;
     line-height: 1.5;
   }
 }
