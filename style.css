@@ -366,9 +366,6 @@ FEATURES ↓
 
 */
 
-main {
-  margin-bottom: 96px;
-}
 #features {
   position: relative;
 }
@@ -601,19 +598,19 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .row {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
 }
-.steps__description,
-.steps__img--wrapper {
-  width: 50%;
-}
 .steps__img--wrapper {
   display: flex;
   position: relative;
+}
+.steps__description {
+  padding: 32px 0px 32px 64px;
 }
 .steps__img {
   z-index: 2;
@@ -1778,36 +1775,25 @@ header .row {
     flex-direction: column-reverse;
   }
 }  
-  #steps .row,
   #testimonials .row {
     flex-direction: column;
     align-items: center;
   }
   #pricing .row {
+    flex-direction: column;
     margin-top: 40px;
   }
   .features {
     justify-content: center;
   }
   .section__para {
-    font-size: 14px;
+    font-size: 18px;
   }
   
   .feature {
-    width: auto;
     max-width: 384px;
   }
-  .quality__description,
-  .quality__img--wrapper,
-  .steps__description,
-  .steps__img--wrapper,
-  .values__description,
-  .values__img,
-  .testimonials__description,
-  .testimonials__img {
-    width: 100%;
-    max-width: 448px;
-  }
+
   .footer__columns {
     justify-content: center;
   }
