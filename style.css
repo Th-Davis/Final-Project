@@ -429,14 +429,7 @@ section {
 .feature {
   width: calc(33.3333%);
 }
-.feature__row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 32px 8px;
-  margin: 0 16px;
-  justify-content: flex-start; 
-}
+
 .feature__text {
   margin-left: 16px;
   margin-top: 0;
@@ -1799,9 +1792,7 @@ header .row {
   .section__para {
     font-size: 14px;
   }
-  .feature__row {
-    flex-direction: column;
-  }
+  
   .feature {
     width: auto;
     max-width: 384px;
